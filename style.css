@@ -331,3 +331,24 @@ footer a:active img{
     padding: 60px 20px;
   }
 }
+
+nav ul li a{
+    text-decoration: none;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.nav-title{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-title:hover{
+    color: palevioletred;
+}
+
